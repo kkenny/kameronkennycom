@@ -15,6 +15,11 @@ twitter_username: kameronkenny
 github_username:  kkenny
 linkedin_username: kameronkenny
 
+currently_reading_title: "The Captain Class"
+currently_reading_author: "Sam Walker"
+currently_reading_image: "https://books.google.com/books/content?id=pKD4DAAAQBAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE73Q5Qh8WByqrMkpgV4NydjjFJOBiu2ZBHQxeck_eir_ntGJgu1v6QsL5GDDfxoSGb4kxC1AD2Mul1vhITZ-VZc79SX7IW_OSF0ZRAizgTZhoD-gynzlFE24Dig7PJUbHERALEUI"
+
+
 # Build settings
 markdown: kramdown
 
