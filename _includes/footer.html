@@ -2,13 +2,22 @@
   <div class="wrapper">
     <span class="footer-heading">{{ site.title }}</span><br />
 
-    <a href="{{site.github.owner_url }}">Github</a><br />
-    {% if site.twitter_username %}
-      <a href="https://twitter.com/{{ site.twitter_username }}">Twitter</a><br />
-    {% endif %}
-    {% if site.linkedin_username %}
-      <a href="https://linkedin.com/in/{{ site.linkedin_username }}">LinkedIn</a><br />
-    {% endif %}
+    <table>
+      <tr>
+	<td width="50%">
+	  <a href="{{site.github.owner_url }}">Github</a><br />
+	  {% if site.twitter_username %}
+	    <a href="https://twitter.com/{{ site.twitter_username }}">Twitter</a><br />
+	  {% endif %}
+	  {% if site.linkedin_username %}
+	    <a href="https://linkedin.com/in/{{ site.linkedin_username }}">LinkedIn</a><br />
+	  {% endif %}
+	</td>
+	<td width="50%">
+	  <iframe height='160' width='300' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/30509534/activity-summary/df309ed4d8ee2aef0cabb44d018f31d494f71462'></iframe>
+	</td>
+      </tr>
+    </table>
   </div>
 </div>
 <br />
@@ -22,8 +31,6 @@
 	  <p>
 
 	  </p>
-          <span class="credits left">Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></span><br />
-          <span class="credits right">Hosted on GitHub Pages</span>
       </div>
 
    {% if site.google_analytics %}
