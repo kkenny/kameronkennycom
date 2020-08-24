@@ -8,7 +8,7 @@ layout: default
 		{% if forloop.index <= 1 %}
 		<div class="col col-12">
 			<article class="article-first">
-				<div class="article-image-first" style="background-image: url({{"/img/" | prepend: site.baseurl | append : post.image}})">
+				<div class="article-image-first" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url({{"/img/" | prepend: site.baseurl | append : post.image}}); background-position: center; background-repeat: no-repeat; position: relative; ">
 					<div class="article-content-first">
 						<div class="article-tag">
 						{% if post.tags.size >= 1 %}
