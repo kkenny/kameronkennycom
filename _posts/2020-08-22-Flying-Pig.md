@@ -2,6 +2,7 @@
 layout: post
 title:  "The Flying Pig"
 date:   2020-08-22 13:00:00 -0500
+image:  hero-images/IMG_20200822_075159.jpg
 tags: [cycling, saturday]
 categories: cycling
 published: true
