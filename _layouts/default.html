@@ -1,10 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
 {% include head.html %}
+
 <body>
-{% include header.html %}
-        {{ content }}
 
-      </section>
+  {% if site.google-analytics %}
+    {% include google-analytics.html %}
+  {% endif %}
+  {% include loader.html %}
+  {% include header.html %}
 
-    </div>
+      {{ content }}
 
-{% include footer.html %}
+  {% include footer.html %}
+  {% include javascripts.html %}
+
+</body>
+
+</html>
