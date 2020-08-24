@@ -24,4 +24,4 @@ currently_reading_image: "https://books.google.com/books/content?id=pKD4DAAAQBAJ
 markdown: kramdown
 
 
-theme: jekyll-theme-midnight
+theme: jekyll-theme-slate
