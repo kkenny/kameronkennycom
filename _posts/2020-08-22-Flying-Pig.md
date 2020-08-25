@@ -8,7 +8,7 @@ categories: cycling
 published: true
 ---
 
-*Distance*: 42.44 | *Moving Time*: 03:07:49 | *Elevation Gain*: 850ft | *Bike*: Giant TCR
+**Distance**: 42.44 | **Moving Time**: 03:07:49 | **Elevation Gain**: 850ft | **Bike**: Giant TCR
 
 Ears to the sky and flapping in the wind, it's clear from the map that I'm approaching mastery in the art of etch-a-sketch with my bicycle.
 
