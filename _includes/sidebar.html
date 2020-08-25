@@ -1,5 +1,5 @@
 <aside class="sidebar">
-  
+
   {% if page.id %}
   <div class="widget widget-recent">
     <h3 class="widget-title">Recent Posts</h3>
@@ -24,8 +24,14 @@
   {% endif %}
 
   <div class="widget widget-social">
-    <h3 class="widget-title">Subscribe & Follow</h3>
+    <h3 class="widget-title">Follow</h3>
     <ul class="social-profiles list-reset">
+			{% if site.strava.latest-rides.enabled == true %}
+			<iframe height='454' width='300' max-width="100%" frameborder='0' allowtransparency='true' scrolling='no' src="{{ site.strava.latest-rides.url }}"></iframe>
+			{% else %} {% endif %}
+			{% if site.strava.activity-summary.enabled == true %}
+			<iframe height='160' width='300' max-width="100%" frameborder='0' allowtransparency='true' scrolling='no' src="{{ site.strava.activity-summary.url }}"></iframe>
+			{% else %} {% endif %}
       {% if site.facebook %}
       <li class="social-profiles-item">
         <a href="{{ site.facebook }}" class="social-profiles-link"><i class="ion ion-logo-facebook"></i></a>
@@ -52,6 +58,7 @@
     </ul>
   </div>
 
+	{% if site.mailchimp %}
   <div class="widget widget-newsletter">
     <h3 class="widget-title">Newsletter</h3>
     <div class="newsletter-subtitle">Get Interesting News</div>
@@ -68,6 +75,7 @@
       </div>
     </form>
   </div>
+	{% endif %}
 
   {% if site.instafeed == true %}
   <div class="widget widget-instagram">
@@ -91,5 +99,5 @@
     {% endfor %}
     </ul>
   </div>
-  
+
 </aside> <!-- /.sidebar -->
