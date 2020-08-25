@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Double-Back"
-date:   2020-08-22 13:00:00 -0500
-image:  hero-images/IMG_20200822_075159.jpg
+date:   2020-08-19 13:00:00 -0500
+image:  hero-images/IMG_20200819_093124.jpg
 tags: [cycling, wednesday]
 categories: cycling
 published: true
