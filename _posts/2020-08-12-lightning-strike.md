@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Lightning: 1, Tree: 0"
-date:   2020-08-14 18:01:00 -0500
+date:   2020-08-12 07:36:00 -0500
 image:  hero-images/IMG_20200812_093924.jpg
 tags: [cycling, wednesday, morning]
 categories: cycling
