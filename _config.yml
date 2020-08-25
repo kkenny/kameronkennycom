@@ -19,7 +19,14 @@ author-avatar: 09.jpg
 #twitter:   https://twitter.com/ # Add your Facebook handle
 #instagram: https://www.instagram.com/ # Add your Facebook handle
 #pinterest: https://www.pinterest.com/ # Add your Facebook handle
-
+#
+strava:
+  latest-rides:
+    url: https://www.strava.com/athletes/30509534/latest-rides/df309ed4d8ee2aef0cabb44d018f31d494f71462
+    enabled: true
+  activity-summary:
+    url: https://www.strava.com/athletes/30509534/activity-summary/df309ed4d8ee2aef0cabb44d018f31d494f71462
+    enabled: false
 
 #-------------------------------
 # Comment Section (Disqus)
