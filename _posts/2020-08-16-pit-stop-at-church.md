@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Pit Stop at Church"
-date:   2020-08-19 09:13:00 -0500
+date:   2020-08-16 07:17:00 -0500
 image:  hero-images/IMG_20200816.jpg
 tags: [cycling, sunday]
 categories: cycling
