@@ -2,7 +2,7 @@
 layout: post
 title:  "Morning People are Nicer"
 date:   2020-08-14 18:01:00 -0500
-image:  hero-images/IMG_20200814_199895.jpg
+image:  hero-images/IMG_20200814_190805.jpg
 tags: [cycling, friday, evening]
 categories: cycling
 published: true
