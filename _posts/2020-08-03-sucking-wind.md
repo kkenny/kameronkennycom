@@ -5,7 +5,7 @@ date:   2020-08-03 08:54:00 -0500
 image:  hero-images/
 tags: [cycling, monday, morning]
 categories: cycling
-published: false
+published: true
 ---
 
 **Distance**: 21.35 mi | **Moving Time**: 01:36:34 | **Elevation Gain**: 417 ft | **Bike**: Giant TCR
